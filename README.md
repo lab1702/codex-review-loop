@@ -8,6 +8,9 @@ Add this repository as a plugin marketplace, then install the plugin:
 
 ```sh
 codex plugin marketplace add lab1702/codex-review-loop
+```
+
+```sh
 codex plugin add codex-review-loop@lab1702-review-loop
 ```
 
