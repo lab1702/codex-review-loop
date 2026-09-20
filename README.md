@@ -20,7 +20,7 @@ See the [official plugin packaging and marketplace documentation](https://develo
 
 ## Use
 
-Explicitly invoke the bundled skill and authorize local commits:
+Automatic invocation is disabled through `policy.allow_implicit_invocation: false` in the skill's `agents/openai.yaml`. Explicitly invoke the bundled skill and authorize local commits:
 
 ```text
 Run $review-loop. I authorize ordinary commits to the current branch.
@@ -39,6 +39,7 @@ The workflow creates ordinary local commits when authorized. It never pushes, re
 plugins/codex-review-loop/
   .codex-plugin/plugin.json
   skills/review-loop/SKILL.md
+  skills/review-loop/agents/openai.yaml
 ```
 
 The original skill instructions are preserved in [SKILL.md](plugins/codex-review-loop/skills/review-loop/SKILL.md).
