@@ -42,3 +42,7 @@ plugins/codex-review-loop/
 ```
 
 The original skill instructions are preserved in [SKILL.md](plugins/codex-review-loop/skills/review-loop/SKILL.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
