@@ -4,17 +4,16 @@ A Codex plugin for independent whole-repository reviews, verified repairs, check
 
 ## Install
 
-Add this repository as a plugin marketplace, then install the plugin:
+In a Codex desktop task or an interactive Codex CLI session, paste this prompt into the message input:
 
-```sh
-codex plugin marketplace add lab1702/codex-review-loop
+```text
+Add lab1702/codex-review-loop as a plugin marketplace, then install
+codex-review-loop@lab1702-review-loop from that marketplace.
 ```
 
-```sh
-codex plugin add codex-review-loop@lab1702-review-loop
-```
+Codex will handle the marketplace setup and installation. Follow any installation prompts it presents, then start a new task or CLI session in the repository you want reviewed.
 
-Alternatively, after adding the marketplace, open the desktop app's plugin directory, select the **Codex Review Loop** marketplace, and install **Codex Review Loop**. Restart the app if the marketplace is not visible. Start a new task in the repository you want reviewed after installation.
+If you prefer to select the plugin yourself, ask Codex to add only the marketplace first. Then open the desktop app's plugin directory, select the **Codex Review Loop** marketplace, and install **Codex Review Loop**. Restart the app if the marketplace is not visible.
 
 See the [official plugin packaging and marketplace documentation](https://developers.openai.com/plugins/build/plugins).
 
