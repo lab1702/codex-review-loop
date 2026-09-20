@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    {
+      "category": "Productivity",
+      "name": "codex-review-loop",
+      "source": {
+        "path": "./plugins/codex-review-loop",
+        "source": "local"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ],
+  "interface": {
+    "displayName": "Codex Review Loop"
+  },
+  "name": "lab1702-review-loop"
+}

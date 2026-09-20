@@ -1,0 +1,21 @@
+{
+  "name": "codex-review-loop",
+  "version": "0.1.0",
+  "description": "Independent whole-repository reviews, verified fixes, checks, and authorized local commits.",
+  "author": {
+    "name": "lab1702"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Review Loop",
+    "shortDescription": "Review repositories and fix verified issues.",
+    "longDescription": "Run isolated repository reviews and repair verified issues until two consecutive passes are clean on the same commit, with at most ten passes. Requires explicit invocation and authorization for local commits. Never pushes.",
+    "developerName": "lab1702",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Run $review-loop. I authorize ordinary commits to the current branch."
+    ]
+  },
+  "repository": "https://github.com/lab1702/codex-review-loop"
+}
